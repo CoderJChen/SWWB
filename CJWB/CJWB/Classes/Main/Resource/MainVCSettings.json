@@ -1,0 +1,22 @@
+[
+ {
+    "vcName": "CJHomeVC",
+    "title": "首页",
+    "imageName": "tabbar_home"
+ },
+ {
+     "vcName": "CJMessageVC",
+     "title": "消息",
+     "imageName": "tabbar_message_center"
+ },
+ {
+     "vcName": "CJDiscoverVC",
+     "title": "广场",
+     "imageName": "tabbar_discover"
+ },
+ {
+     "vcName": "CJProfileVC",
+     "title": "我",
+     "imageName": "tabbar_profile"
+ }
+ ]
