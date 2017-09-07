@@ -27,6 +27,7 @@ class CJVisitorView: UIView {
     }
     
     func addRotationAnim() -> Void {
+//        旋转
         let rotationAnim = CABasicAnimation(keyPath: "transform.rotation.z")
         rotationAnim.fromValue = 0
         rotationAnim.toValue = Double.pi * 2

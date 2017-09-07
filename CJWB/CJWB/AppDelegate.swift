@@ -12,14 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var defaultVC : UIViewController? {
+        
+        let isLogin = CJUserAccountViewModel.shareInstance.isLogin
+        return isLogin ? CJWelcomeVC() : UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         UITabBar.appearance().tintColor = UIColor.orange
         UINavigationBar.appearance().tintColor = UIColor.orange
         
-//        window?.rootViewController = CJMainVC()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = defaultVC
+        window?.makeKeyAndVisible()
+
+        //        window?.rootViewController = CJMainVC()
         
         // Override point for customization after application launch.
         return true

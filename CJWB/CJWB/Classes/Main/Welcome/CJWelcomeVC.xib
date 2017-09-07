@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CJWelcomeVC" customModule="CJWB" customModuleProvider="target">
+            <connections>
+                <outlet property="iconView" destination="v7C-gO-V9c" id="rgS-LE-b6S"/>
+                <outlet property="iconViewBottomCons" destination="J8g-gV-oLT" id="R7F-fy-6Ag"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad_background" translatesAutoresizingMaskIntoConstraints="NO" id="TLY-WK-Fkh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_default_big" translatesAutoresizingMaskIntoConstraints="NO" id="v7C-gO-V9c">
+                    <rect key="frame" x="142.5" y="427" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="3PU-XG-LBP"/>
+                        <constraint firstAttribute="height" constant="90" id="m4J-n6-9lZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎回来" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTp-T6-JLM">
+                    <rect key="frame" x="157" y="537" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TLY-WK-Fkh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7Iy-vh-5So"/>
+                <constraint firstItem="v7C-gO-V9c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8JX-aa-lDL"/>
+                <constraint firstAttribute="bottom" secondItem="v7C-gO-V9c" secondAttribute="bottom" constant="150" id="J8g-gV-oLT"/>
+                <constraint firstAttribute="bottom" secondItem="TLY-WK-Fkh" secondAttribute="bottom" id="dMu-5F-fHe"/>
+                <constraint firstAttribute="trailing" secondItem="TLY-WK-Fkh" secondAttribute="trailing" id="fFp-4a-Be9"/>
+                <constraint firstItem="TLY-WK-Fkh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fYq-iW-5Pc"/>
+                <constraint firstItem="BTp-T6-JLM" firstAttribute="top" secondItem="v7C-gO-V9c" secondAttribute="bottom" constant="20" id="jkR-tc-DsM"/>
+                <constraint firstItem="BTp-T6-JLM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xWE-rO-C15"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ad_background" width="375" height="667"/>
+        <image name="avatar_default_big" width="85" height="85"/>
+    </resources>
+</document>

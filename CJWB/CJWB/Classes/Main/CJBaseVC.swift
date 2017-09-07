@@ -13,7 +13,7 @@ class CJBaseVC: UITableViewController{
     // MARK:- 懒加载属性
     lazy var visitorView : CJVisitorView = CJVisitorView.visitorView()
     
-    var isLogin : Bool = true
+    var isLogin : Bool = CJUserAccountViewModel.shareInstance.isLogin
     
     override func loadView() {
         isLogin ? super.loadView() : setUpVisitorView()
@@ -45,5 +45,9 @@ extension CJBaseVC{
     }
     @objc fileprivate func loginBtnClick(){
         print("loginBtnClick")
+        let oauthVC = CJOAuthVC()
+        let oauthNav = UINavigationController(rootViewController: oauthVC)
+        
+        present(oauthNav, animated: true, completion: nil)
     }
 }

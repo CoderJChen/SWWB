@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0081EB11F31AFDD0002A836 /* CJPopoverAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081EB01F31AFDD0002A836 /* CJPopoverAnimation.swift */; };
-		D017CA5C1F2ECDBD0037071E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA5A1F2ECDBD0037071E /* Main.storyboard */; };
+		144E0B0C375BFBA0A22311E2 /* Pods_CJWB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2041AB2C3C81B8EA871EDD49 /* Pods_CJWB.framework */; };
+		D00549961F3AB5FA0098D926 /* CJOAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00549941F3AB5FA0098D926 /* CJOAuthVC.swift */; };
+		D00549971F3AB5FA0098D926 /* CJOAuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00549951F3AB5FA0098D926 /* CJOAuthVC.xib */; };
+		D005499A1F3ABC2B0098D926 /* CJWelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00549981F3ABC2B0098D926 /* CJWelcomeVC.swift */; };
+		D005499B1F3ABC2B0098D926 /* CJWelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00549991F3ABC2B0098D926 /* CJWelcomeVC.xib */; };
+		D005499D1F3ABEA50098D926 /* CJUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005499C1F3ABEA50098D926 /* CJUserAccount.swift */; };
+		D005499F1F3AF4250098D926 /* CJUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */; };
+		D00549A11F3AF9610098D926 /* CJNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */; };
 		D017CA5E1F2ED1D00037071E /* CJHomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */; };
 		D017CA621F2ED4890037071E /* CJMessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA611F2ED4890037071E /* CJMessageVC.storyboard */; };
 		D017CA651F2ED5840037071E /* NULL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA631F2ED5840037071E /* NULL.storyboard */; };
@@ -18,6 +24,7 @@
 		D017CA6F1F2F06F30037071E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017CA6E1F2F06F30037071E /* UIBarButtonItem-Extension.swift */; };
 		D017CA731F2F09FF0037071E /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D017CA721F2F09FF0037071E /* VisitorView.xib */; };
 		D017CA811F2F38460037071E /* CJBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017CA801F2F38460037071E /* CJBaseVC.swift */; };
+		D01E101B1F3C09D100411CF6 /* CJCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E101A1F3C09D100411CF6 /* CJCommon.swift */; };
 		D03738481F288E9400056CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03738471F288E9400056CF6 /* AppDelegate.swift */; };
 		D037384F1F288E9400056CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D037384E1F288E9400056CF6 /* Assets.xcassets */; };
 		D03738521F288E9400056CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03738501F288E9400056CF6 /* LaunchScreen.storyboard */; };
@@ -29,14 +36,29 @@
 		D037387D1F29D7C500056CF6 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = D037387C1F29D7C500056CF6 /* MainVCSettings.json */; };
 		D062D1111F31753400FB2AF0 /* CJVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D1101F31753400FB2AF0 /* CJVisitorView.swift */; };
 		D062D1141F317F9B00FB2AF0 /* CJTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */; };
-		D062D1171F31818900FB2AF0 /* CJPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D1151F31818900FB2AF0 /* CJPopoverViewController.swift */; };
-		D062D1181F31818900FB2AF0 /* CJPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D062D1161F31818900FB2AF0 /* CJPopoverViewController.xib */; };
-		D062D11B1F31A9D200FB2AF0 /* CJPresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D11A1F31A9D200FB2AF0 /* CJPresentationVC.swift */; };
+		D09F31131F4AB88A008B15C1 /* CJHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */; };
+		D0BCB49C1F46994000BC6FBA /* CJPopoverAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4981F46994000BC6FBA /* CJPopoverAnimation.swift */; };
+		D0BCB49D1F46994000BC6FBA /* CJPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4991F46994000BC6FBA /* CJPopoverViewController.swift */; };
+		D0BCB49E1F46994000BC6FBA /* CJPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BCB49A1F46994000BC6FBA /* CJPopoverViewController.xib */; };
+		D0BCB49F1F46994000BC6FBA /* CJPresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB49B1F46994000BC6FBA /* CJPresentationVC.swift */; };
+		D0BCB4A31F46BF2600BC6FBA /* CJStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A21F46BF2600BC6FBA /* CJStatusModel.swift */; };
+		D0BCB4A51F46CE6E00BC6FBA /* CJUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A41F46CE6D00BC6FBA /* CJUserModel.swift */; };
+		D0BCB4A71F46D01D00BC6FBA /* CJStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */; };
+		D0BCB4A91F46D18000BC6FBA /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */; };
+		D0BDD14B1F39A07400F3A411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDD1491F39A07400F3A411 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0081EB01F31AFDD0002A836 /* CJPopoverAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverAnimation.swift; sourceTree = "<group>"; };
-		D017CA5B1F2ECDBD0037071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2041AB2C3C81B8EA871EDD49 /* Pods_CJWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEE83F25CAA694C6EB0D367 /* Pods-CJWB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJWB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJWB/Pods-CJWB.debug.xcconfig"; sourceTree = "<group>"; };
+		BF458472E307D99D0C8B0718 /* Pods-CJWB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJWB.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJWB/Pods-CJWB.release.xcconfig"; sourceTree = "<group>"; };
+		D00549941F3AB5FA0098D926 /* CJOAuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJOAuthVC.swift; sourceTree = "<group>"; };
+		D00549951F3AB5FA0098D926 /* CJOAuthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJOAuthVC.xib; sourceTree = "<group>"; };
+		D00549981F3ABC2B0098D926 /* CJWelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWelcomeVC.swift; sourceTree = "<group>"; };
+		D00549991F3ABC2B0098D926 /* CJWelcomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJWelcomeVC.xib; sourceTree = "<group>"; };
+		D005499C1F3ABEA50098D926 /* CJUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserAccount.swift; sourceTree = "<group>"; };
+		D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserAccountViewModel.swift; sourceTree = "<group>"; };
+		D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJNetWorkTools.swift; sourceTree = "<group>"; };
 		D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJHomeVC.storyboard; sourceTree = "<group>"; };
 		D017CA611F2ED4890037071E /* CJMessageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJMessageVC.storyboard; sourceTree = "<group>"; };
 		D017CA641F2ED5840037071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NULL.storyboard; sourceTree = "<group>"; };
@@ -44,8 +66,9 @@
 		D017CA681F2ED5B60037071E /* CJProfileVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJProfileVC.storyboard; sourceTree = "<group>"; };
 		D017CA6A1F2EE7200037071E /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton-Extension.swift"; path = "../../../../UIButton-Extension.swift"; sourceTree = "<group>"; };
 		D017CA6E1F2F06F30037071E /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
-		D017CA721F2F09FF0037071E /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
-		D017CA801F2F38460037071E /* CJBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJBaseVC.swift; sourceTree = "<group>"; };
+		D017CA721F2F09FF0037071E /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VisitorView.xib; path = CJWB/Classes/Main/VisitorView.xib; sourceTree = SOURCE_ROOT; };
+		D017CA801F2F38460037071E /* CJBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJBaseVC.swift; path = ../CJBaseVC.swift; sourceTree = "<group>"; };
+		D01E101A1F3C09D100411CF6 /* CJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJCommon.swift; sourceTree = "<group>"; };
 		D03738441F288E9400056CF6 /* CJWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03738471F288E9400056CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D037384E1F288E9400056CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,11 +80,18 @@
 		D03738671F2891E300056CF6 /* CJProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJProfileVC.swift; sourceTree = "<group>"; };
 		D03738691F28939E00056CF6 /* CJMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJMainVC.swift; sourceTree = "<group>"; };
 		D037387C1F29D7C500056CF6 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
-		D062D1101F31753400FB2AF0 /* CJVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJVisitorView.swift; sourceTree = "<group>"; };
-		D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJTitleButton.swift; sourceTree = "<group>"; };
-		D062D1151F31818900FB2AF0 /* CJPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverViewController.swift; sourceTree = "<group>"; };
-		D062D1161F31818900FB2AF0 /* CJPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJPopoverViewController.xib; sourceTree = "<group>"; };
-		D062D11A1F31A9D200FB2AF0 /* CJPresentationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPresentationVC.swift; sourceTree = "<group>"; };
+		D062D1101F31753400FB2AF0 /* CJVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJVisitorView.swift; path = ../CJVisitorView.swift; sourceTree = "<group>"; };
+		D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJTitleButton.swift; path = category/CJTitleButton.swift; sourceTree = "<group>"; };
+		D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJHomeViewCell.swift; sourceTree = "<group>"; };
+		D0BCB4981F46994000BC6FBA /* CJPopoverAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverAnimation.swift; sourceTree = "<group>"; };
+		D0BCB4991F46994000BC6FBA /* CJPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverViewController.swift; sourceTree = "<group>"; };
+		D0BCB49A1F46994000BC6FBA /* CJPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJPopoverViewController.xib; sourceTree = "<group>"; };
+		D0BCB49B1F46994000BC6FBA /* CJPresentationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPresentationVC.swift; sourceTree = "<group>"; };
+		D0BCB4A21F46BF2600BC6FBA /* CJStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJStatusModel.swift; sourceTree = "<group>"; };
+		D0BCB4A41F46CE6D00BC6FBA /* CJUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserModel.swift; sourceTree = "<group>"; };
+		D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJStatusViewModel.swift; sourceTree = "<group>"; };
+		D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		D0BDD14A1F39A07400F3A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +99,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144E0B0C375BFBA0A22311E2 /* Pods_CJWB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63BC8D26CE892009CD498F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2041AB2C3C81B8EA871EDD49 /* Pods_CJWB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C23ECA2FB406863D2EB79B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EEE83F25CAA694C6EB0D367 /* Pods-CJWB.debug.xcconfig */,
+				BF458472E307D99D0C8B0718 /* Pods-CJWB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D00549911F3AB5B30098D926 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				D00549941F3AB5FA0098D926 /* CJOAuthVC.swift */,
+				D00549951F3AB5FA0098D926 /* CJOAuthVC.xib */,
+				D005499C1F3ABEA50098D926 /* CJUserAccount.swift */,
+				D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		D00549921F3AB5B30098D926 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				D017CA801F2F38460037071E /* CJBaseVC.swift */,
+				D062D1101F31753400FB2AF0 /* CJVisitorView.swift */,
+				D017CA721F2F09FF0037071E /* VisitorView.xib */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		D00549931F3AB5B30098D926 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D00549981F3ABC2B0098D926 /* CJWelcomeVC.swift */,
+				D00549991F3ABC2B0098D926 /* CJWelcomeVC.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		D017CA6C1F2F05FC0037071E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */,
 				D017CA6D1F2F05FC0037071E /* category */,
+				D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */,
+				D01E101A1F3C09D100411CF6 /* CJCommon.swift */,
 			);
 			name = Tools;
 			path = Classes/Profile/Tools;
@@ -89,7 +170,7 @@
 			children = (
 				D017CA6A1F2EE7200037071E /* UIButton-Extension.swift */,
 				D017CA6E1F2F06F30037071E /* UIBarButtonItem-Extension.swift */,
-				D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */,
+				D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -99,6 +180,8 @@
 			children = (
 				D03738461F288E9400056CF6 /* CJWB */,
 				D03738451F288E9400056CF6 /* Products */,
+				8C23ECA2FB406863D2EB79B8 /* Pods */,
+				63BC8D26CE892009CD498F4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +201,7 @@
 				D03738471F288E9400056CF6 /* AppDelegate.swift */,
 				D037384E1F288E9400056CF6 /* Assets.xcassets */,
 				D03738501F288E9400056CF6 /* LaunchScreen.storyboard */,
-				D017CA5A1F2ECDBD0037071E /* Main.storyboard */,
+				D0BDD1491F39A07400F3A411 /* Main.storyboard */,
 				D03738531F288E9400056CF6 /* Info.plist */,
 			);
 			path = CJWB;
@@ -148,12 +231,11 @@
 		D037385B1F28916800056CF6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D0BCB4A11F46BE7D00BC6FBA /* HomeModel */,
 				D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */,
 				D03738611F2891BD00056CF6 /* CJHomeVC.swift */,
-				D062D1151F31818900FB2AF0 /* CJPopoverViewController.swift */,
-				D062D1161F31818900FB2AF0 /* CJPopoverViewController.xib */,
-				D062D11A1F31A9D200FB2AF0 /* CJPresentationVC.swift */,
-				D0081EB01F31AFDD0002A836 /* CJPopoverAnimation.swift */,
+				D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */,
+				D0BCB4971F46994000BC6FBA /* UIPopover */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,11 +243,11 @@
 		D037385C1F28916800056CF6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D00549911F3AB5B30098D926 /* OAuth */,
+				D00549921F3AB5B30098D926 /* Visitor */,
+				D00549931F3AB5B30098D926 /* Welcome */,
 				D037387B1F29D7C500056CF6 /* Resource */,
 				D03738691F28939E00056CF6 /* CJMainVC.swift */,
-				D017CA801F2F38460037071E /* CJBaseVC.swift */,
-				D062D1101F31753400FB2AF0 /* CJVisitorView.swift */,
-				D017CA721F2F09FF0037071E /* VisitorView.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -197,6 +279,27 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		D0BCB4971F46994000BC6FBA /* UIPopover */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCB4981F46994000BC6FBA /* CJPopoverAnimation.swift */,
+				D0BCB4991F46994000BC6FBA /* CJPopoverViewController.swift */,
+				D0BCB49A1F46994000BC6FBA /* CJPopoverViewController.xib */,
+				D0BCB49B1F46994000BC6FBA /* CJPresentationVC.swift */,
+			);
+			path = UIPopover;
+			sourceTree = "<group>";
+		};
+		D0BCB4A11F46BE7D00BC6FBA /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCB4A21F46BF2600BC6FBA /* CJStatusModel.swift */,
+				D0BCB4A41F46CE6D00BC6FBA /* CJUserModel.swift */,
+				D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D03738561F288E9400056CF6 /* Build configuration list for PBXNativeTarget "CJWB" */;
 			buildPhases = (
+				1A28D8900BACDAF690BBEAE7 /* [CP] Check Pods Manifest.lock */,
 				D03738401F288E9400056CF6 /* Sources */,
 				D03738411F288E9400056CF6 /* Frameworks */,
 				D03738421F288E9400056CF6 /* Resources */,
+				6A4CCD791177047CB8A2A438 /* [CP] Embed Pods Frameworks */,
+				4A39D28749A4268C84971EC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,20 +365,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				D017CA691F2ED5B60037071E /* CJProfileVC.storyboard in Resources */,
-				D062D1181F31818900FB2AF0 /* CJPopoverViewController.xib in Resources */,
 				D017CA731F2F09FF0037071E /* VisitorView.xib in Resources */,
 				D03738521F288E9400056CF6 /* LaunchScreen.storyboard in Resources */,
 				D017CA651F2ED5840037071E /* NULL.storyboard in Resources */,
+				D0BCB49E1F46994000BC6FBA /* CJPopoverViewController.xib in Resources */,
+				D00549971F3AB5FA0098D926 /* CJOAuthVC.xib in Resources */,
+				D0BDD14B1F39A07400F3A411 /* Main.storyboard in Resources */,
 				D017CA5E1F2ED1D00037071E /* CJHomeVC.storyboard in Resources */,
 				D017CA671F2ED59D0037071E /* CJDiscoverVC.storyboard in Resources */,
 				D037384F1F288E9400056CF6 /* Assets.xcassets in Resources */,
 				D037387D1F29D7C500056CF6 /* MainVCSettings.json in Resources */,
+				D005499B1F3ABC2B0098D926 /* CJWelcomeVC.xib in Resources */,
 				D017CA621F2ED4890037071E /* CJMessageVC.storyboard in Resources */,
-				D017CA5C1F2ECDBD0037071E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A28D8900BACDAF690BBEAE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A39D28749A4268C84971EC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJWB/Pods-CJWB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4CCD791177047CB8A2A438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJWB/Pods-CJWB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D03738401F288E9400056CF6 /* Sources */ = {
@@ -280,34 +436,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03738661F2891D700056CF6 /* CJMessageVC.swift in Sources */,
+				D0BCB49C1F46994000BC6FBA /* CJPopoverAnimation.swift in Sources */,
 				D03738621F2891BD00056CF6 /* CJHomeVC.swift in Sources */,
+				D0BCB4A71F46D01D00BC6FBA /* CJStatusViewModel.swift in Sources */,
+				D0BCB49F1F46994000BC6FBA /* CJPresentationVC.swift in Sources */,
+				D0BCB49D1F46994000BC6FBA /* CJPopoverViewController.swift in Sources */,
+				D00549A11F3AF9610098D926 /* CJNetWorkTools.swift in Sources */,
 				D017CA6F1F2F06F30037071E /* UIBarButtonItem-Extension.swift in Sources */,
 				D037386A1F28939E00056CF6 /* CJMainVC.swift in Sources */,
+				D00549961F3AB5FA0098D926 /* CJOAuthVC.swift in Sources */,
+				D0BCB4A91F46D18000BC6FBA /* NSDate-Extension.swift in Sources */,
 				D03738601F2891A200056CF6 /* CJDiscoverVC.swift in Sources */,
+				D01E101B1F3C09D100411CF6 /* CJCommon.swift in Sources */,
+				D0BCB4A31F46BF2600BC6FBA /* CJStatusModel.swift in Sources */,
 				D062D1141F317F9B00FB2AF0 /* CJTitleButton.swift in Sources */,
 				D03738481F288E9400056CF6 /* AppDelegate.swift in Sources */,
+				D005499D1F3ABEA50098D926 /* CJUserAccount.swift in Sources */,
 				D062D1111F31753400FB2AF0 /* CJVisitorView.swift in Sources */,
 				D03738681F2891E300056CF6 /* CJProfileVC.swift in Sources */,
 				D017CA811F2F38460037071E /* CJBaseVC.swift in Sources */,
+				D09F31131F4AB88A008B15C1 /* CJHomeViewCell.swift in Sources */,
 				D017CA6B1F2EE7200037071E /* UIButton-Extension.swift in Sources */,
-				D0081EB11F31AFDD0002A836 /* CJPopoverAnimation.swift in Sources */,
-				D062D11B1F31A9D200FB2AF0 /* CJPresentationVC.swift in Sources */,
-				D062D1171F31818900FB2AF0 /* CJPopoverViewController.swift in Sources */,
+				D005499A1F3ABC2B0098D926 /* CJWelcomeVC.swift in Sources */,
+				D005499F1F3AF4250098D926 /* CJUserAccountViewModel.swift in Sources */,
+				D0BCB4A51F46CE6E00BC6FBA /* CJUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D017CA5A1F2ECDBD0037071E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D017CA5B1F2ECDBD0037071E /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../../../../../../../../../Users/xingyiios/Desktop/swift/CJWB/CJWB;
-			sourceTree = SDKROOT;
-		};
 		D017CA631F2ED5840037071E /* NULL.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -323,6 +481,14 @@
 				D03738511F288E9400056CF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BDD1491F39A07400F3A411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BDD14A1F39A07400F3A411 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +589,7 @@
 		};
 		D03738571F288E9400056CF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEE83F25CAA694C6EB0D367 /* Pods-CJWB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
@@ -436,6 +603,7 @@
 		};
 		D03738581F288E9400056CF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF458472E307D99D0C8B0718 /* Pods-CJWB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
