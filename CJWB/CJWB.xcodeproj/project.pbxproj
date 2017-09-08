@@ -15,6 +15,7 @@
 		D005499D1F3ABEA50098D926 /* CJUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005499C1F3ABEA50098D926 /* CJUserAccount.swift */; };
 		D005499F1F3AF4250098D926 /* CJUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */; };
 		D00549A11F3AF9610098D926 /* CJNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */; };
+		D00EE1911F6248D200F3AEBC /* CJPicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EE1901F6248D200F3AEBC /* CJPicCollectionView.swift */; };
 		D017CA5E1F2ED1D00037071E /* CJHomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */; };
 		D017CA621F2ED4890037071E /* CJMessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA611F2ED4890037071E /* CJMessageVC.storyboard */; };
 		D017CA651F2ED5840037071E /* NULL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA631F2ED5840037071E /* NULL.storyboard */; };
@@ -59,6 +60,7 @@
 		D005499C1F3ABEA50098D926 /* CJUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserAccount.swift; sourceTree = "<group>"; };
 		D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserAccountViewModel.swift; sourceTree = "<group>"; };
 		D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJNetWorkTools.swift; sourceTree = "<group>"; };
+		D00EE1901F6248D200F3AEBC /* CJPicCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPicCollectionView.swift; sourceTree = "<group>"; };
 		D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJHomeVC.storyboard; sourceTree = "<group>"; };
 		D017CA611F2ED4890037071E /* CJMessageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJMessageVC.storyboard; sourceTree = "<group>"; };
 		D017CA641F2ED5840037071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NULL.storyboard; sourceTree = "<group>"; };
@@ -156,10 +158,10 @@
 		D017CA6C1F2F05FC0037071E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D01E101A1F3C09D100411CF6 /* CJCommon.swift */,
+				D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */,
 				D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */,
 				D017CA6D1F2F05FC0037071E /* category */,
-				D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */,
-				D01E101A1F3C09D100411CF6 /* CJCommon.swift */,
 			);
 			name = Tools;
 			path = Classes/Profile/Tools;
@@ -235,6 +237,7 @@
 				D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */,
 				D03738611F2891BD00056CF6 /* CJHomeVC.swift */,
 				D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */,
+				D00EE1901F6248D200F3AEBC /* CJPicCollectionView.swift */,
 				D0BCB4971F46994000BC6FBA /* UIPopover */,
 			);
 			path = Home;
@@ -455,6 +458,7 @@
 				D062D1111F31753400FB2AF0 /* CJVisitorView.swift in Sources */,
 				D03738681F2891E300056CF6 /* CJProfileVC.swift in Sources */,
 				D017CA811F2F38460037071E /* CJBaseVC.swift in Sources */,
+				D00EE1911F6248D200F3AEBC /* CJPicCollectionView.swift in Sources */,
 				D09F31131F4AB88A008B15C1 /* CJHomeViewCell.swift in Sources */,
 				D017CA6B1F2EE7200037071E /* UIButton-Extension.swift in Sources */,
 				D005499A1F3ABC2B0098D926 /* CJWelcomeVC.swift in Sources */,
