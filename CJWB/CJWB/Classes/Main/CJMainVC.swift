@@ -106,6 +106,10 @@ extension CJMainVC{
 
     @objc fileprivate func composeBtnClick(){
         print("composeBtnClick")
+        
+        let composeVC = CJComposeVC()
+        let composeVCNav = UINavigationController(rootViewController: composeVC)
+        present(composeVCNav, animated: true, completion: nil)
     }
 }
 

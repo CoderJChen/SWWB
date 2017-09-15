@@ -90,11 +90,10 @@ extension CJNetWorkTools{
         
         let parameters = ["access_token" : accessToken,"since_id":"\(since_id)","max_id":"\(max_id)"]
         
-        request(urlString, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+        Alamofire.request(urlString, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
             
             // 1.获取字典的数据
             guard let resultDict = response.result.value as? [String : AnyObject] else {
-
                 return
             }
             finished(resultDict["statuses"] as? [[String : AnyObject]])
@@ -104,7 +103,51 @@ extension CJNetWorkTools{
     }
 }
 
+// MARK:- 发送微博
+extension CJNetWorkTools{
+    class func sendStatus(statusText : String, isSuccess : @escaping (_ isSuccess : Bool) -> ()) {
+        let urlString = "https://api.weibo.com/2/statuses/update.json"
+        // 2.获取请求的参数
+        let parameters = ["access_token" : (CJUserAccountViewModel.shareInstance.account?.access_token)!, "status" : statusText]
+        
+        Alamofire.request(urlString, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
 
+            if response.result.value != nil {
+                isSuccess(true)
+            } else {
+                isSuccess(false)
+            }
+        }
+    }
+}
+
+// MARK:- 发送微博并且携带照片
+
+extension CJNetWorkTools{
+    class func sendStatus(statusText : String, image : UIImage, isSuccess : @escaping(_ isSuccess : Bool) -> ()) {
+        // 1.获取请求的URLString
+        let urlString = "https://api.weibo.com/2/statuses/upload.json"
+        
+        // 2.获取请求的参数
+        let parameters = ["access_token" : (CJUserAccountViewModel.shareInstance.account?.access_token)!, "status" : statusText]
+        Alamofire.upload(multipartFormData: { (formData) in
+            
+        }, usingThreshold: UInt64.init(), to: urlString, method: .post, headers: parameters) { (encodingResult) in
+            switch encodingResult {
+            case .success(let upload, _, _):
+                upload.responseJSON { response in
+                    debugPrint(response)
+                    isSuccess(true)
+                }
+            case .failure(let encodingError):
+                isSuccess(false)
+                print(encodingError)
+            }
+        }
+        
+    }
+    
+}
 
 
 

@@ -25,11 +25,13 @@ class CJWelcomeVC: UIViewController {
         iconView.sd_setImage(with: url, placeholderImage: UIImage(named:"avatar_default_big"), options: SDWebImageOptions.retryFailed, progress: nil, completed: nil)
 //        改变约束的值
         iconViewBottomCons.constant = UIScreen.main.bounds.height - 200
+
         // 2.执行动画
         // Damping : 阻力系数,阻力系数越大,弹动的效果越不明显 0~1
         // initialSpringVelocity : 初始化速度
-       UIView.animate(withDuration: 1.5, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 5.0, options: [], animations: { 
+       UIView.animate(withDuration: 1.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 5.0, options: [], animations: {
         self.view.layoutIfNeeded()
+        
        }) { (_) in
         UIApplication.shared.keyWindow?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
         }

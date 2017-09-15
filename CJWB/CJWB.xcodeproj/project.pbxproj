@@ -16,6 +16,10 @@
 		D005499F1F3AF4250098D926 /* CJUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */; };
 		D00549A11F3AF9610098D926 /* CJNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */; };
 		D00EE1911F6248D200F3AEBC /* CJPicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EE1901F6248D200F3AEBC /* CJPicCollectionView.swift */; };
+		D0109A621F6A32CB00CD5BAE /* CJEmotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0109A611F6A32CB00CD5BAE /* CJEmotionCell.swift */; };
+		D0109A651F6A6B2800CD5BAE /* CJEmotionAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0109A641F6A6B2800CD5BAE /* CJEmotionAttachment.swift */; };
+		D0109A691F6A6B6300CD5BAE /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0109A681F6A6B6300CD5BAE /* UITextView-Extension.swift */; };
+		D0109A6B1F6A76A300CD5BAE /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0109A6A1F6A76A300CD5BAE /* Emoticons.bundle */; };
 		D017CA5E1F2ED1D00037071E /* CJHomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */; };
 		D017CA621F2ED4890037071E /* CJMessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA611F2ED4890037071E /* CJMessageVC.storyboard */; };
 		D017CA651F2ED5840037071E /* NULL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017CA631F2ED5840037071E /* NULL.storyboard */; };
@@ -35,8 +39,15 @@
 		D03738681F2891E300056CF6 /* CJProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03738671F2891E300056CF6 /* CJProfileVC.swift */; };
 		D037386A1F28939E00056CF6 /* CJMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03738691F28939E00056CF6 /* CJMainVC.swift */; };
 		D037387D1F29D7C500056CF6 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = D037387C1F29D7C500056CF6 /* MainVCSettings.json */; };
+		D0435E4E1F66873C0098F182 /* CJComposeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0435E4C1F66873C0098F182 /* CJComposeVC.swift */; };
+		D0435E4F1F66873C0098F182 /* CJComposeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0435E4D1F66873C0098F182 /* CJComposeVC.xib */; };
+		D0435E511F668AB60098F182 /* CJComposeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0435E501F668AB60098F182 /* CJComposeTitleView.swift */; };
+		D0435E531F668F860098F182 /* CJComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0435E521F668F860098F182 /* CJComposeTextView.swift */; };
+		D04696781F68DDA800AA01A5 /* CJPicPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04696761F68DDA800AA01A5 /* CJPicPickerViewCell.swift */; };
+		D04696791F68DDA800AA01A5 /* CJPicPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04696771F68DDA800AA01A5 /* CJPicPickerViewCell.xib */; };
+		D04696801F6922FF00AA01A5 /* CJTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046967F1F6922FF00AA01A5 /* CJTitleButton.swift */; };
+		D04696841F69237500AA01A5 /* CJEmotionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04696831F69237500AA01A5 /* CJEmotionVC.swift */; };
 		D062D1111F31753400FB2AF0 /* CJVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D1101F31753400FB2AF0 /* CJVisitorView.swift */; };
-		D062D1141F317F9B00FB2AF0 /* CJTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */; };
 		D09F31131F4AB88A008B15C1 /* CJHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */; };
 		D0BCB49C1F46994000BC6FBA /* CJPopoverAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4981F46994000BC6FBA /* CJPopoverAnimation.swift */; };
 		D0BCB49D1F46994000BC6FBA /* CJPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4991F46994000BC6FBA /* CJPopoverViewController.swift */; };
@@ -47,6 +58,10 @@
 		D0BCB4A71F46D01D00BC6FBA /* CJStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */; };
 		D0BCB4A91F46D18000BC6FBA /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */; };
 		D0BDD14B1F39A07400F3A411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDD1491F39A07400F3A411 /* Main.storyboard */; };
+		D0C2093E1F6924CA00FCE77E /* CJEmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2093D1F6924CA00FCE77E /* CJEmotionModel.swift */; };
+		D0C209401F692E7000FCE77E /* CJEmotionPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2093F1F692E7000FCE77E /* CJEmotionPackage.swift */; };
+		D0C209421F6935DC00FCE77E /* CJEmotionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C209411F6935DC00FCE77E /* CJEmotionManger.swift */; };
+		D0D89FE71F67BDF9007AE6B6 /* CJPicPickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D89FE61F67BDF9007AE6B6 /* CJPicPickerCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +76,10 @@
 		D005499E1F3AF4250098D926 /* CJUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJUserAccountViewModel.swift; sourceTree = "<group>"; };
 		D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJNetWorkTools.swift; sourceTree = "<group>"; };
 		D00EE1901F6248D200F3AEBC /* CJPicCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPicCollectionView.swift; sourceTree = "<group>"; };
+		D0109A611F6A32CB00CD5BAE /* CJEmotionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionCell.swift; sourceTree = "<group>"; };
+		D0109A641F6A6B2800CD5BAE /* CJEmotionAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionAttachment.swift; sourceTree = "<group>"; };
+		D0109A681F6A6B6300CD5BAE /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		D0109A6A1F6A76A300CD5BAE /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
 		D017CA5D1F2ED1D00037071E /* CJHomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJHomeVC.storyboard; sourceTree = "<group>"; };
 		D017CA611F2ED4890037071E /* CJMessageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CJMessageVC.storyboard; sourceTree = "<group>"; };
 		D017CA641F2ED5840037071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NULL.storyboard; sourceTree = "<group>"; };
@@ -82,8 +101,15 @@
 		D03738671F2891E300056CF6 /* CJProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJProfileVC.swift; sourceTree = "<group>"; };
 		D03738691F28939E00056CF6 /* CJMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJMainVC.swift; sourceTree = "<group>"; };
 		D037387C1F29D7C500056CF6 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		D0435E4C1F66873C0098F182 /* CJComposeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJComposeVC.swift; sourceTree = "<group>"; };
+		D0435E4D1F66873C0098F182 /* CJComposeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJComposeVC.xib; sourceTree = "<group>"; };
+		D0435E501F668AB60098F182 /* CJComposeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJComposeTitleView.swift; sourceTree = "<group>"; };
+		D0435E521F668F860098F182 /* CJComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJComposeTextView.swift; sourceTree = "<group>"; };
+		D04696761F68DDA800AA01A5 /* CJPicPickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPicPickerViewCell.swift; sourceTree = "<group>"; };
+		D04696771F68DDA800AA01A5 /* CJPicPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJPicPickerViewCell.xib; sourceTree = "<group>"; };
+		D046967F1F6922FF00AA01A5 /* CJTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJTitleButton.swift; sourceTree = "<group>"; };
+		D04696831F69237500AA01A5 /* CJEmotionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionVC.swift; sourceTree = "<group>"; };
 		D062D1101F31753400FB2AF0 /* CJVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJVisitorView.swift; path = ../CJVisitorView.swift; sourceTree = "<group>"; };
-		D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJTitleButton.swift; path = category/CJTitleButton.swift; sourceTree = "<group>"; };
 		D09F31121F4AB88A008B15C1 /* CJHomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJHomeViewCell.swift; sourceTree = "<group>"; };
 		D0BCB4981F46994000BC6FBA /* CJPopoverAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverAnimation.swift; sourceTree = "<group>"; };
 		D0BCB4991F46994000BC6FBA /* CJPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPopoverViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +120,10 @@
 		D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJStatusViewModel.swift; sourceTree = "<group>"; };
 		D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		D0BDD14A1F39A07400F3A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C2093D1F6924CA00FCE77E /* CJEmotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionModel.swift; sourceTree = "<group>"; };
+		D0C2093F1F692E7000FCE77E /* CJEmotionPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionPackage.swift; sourceTree = "<group>"; };
+		D0C209411F6935DC00FCE77E /* CJEmotionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJEmotionManger.swift; sourceTree = "<group>"; };
+		D0D89FE61F67BDF9007AE6B6 /* CJPicPickerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJPicPickerCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +188,10 @@
 		D017CA6C1F2F05FC0037071E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D04696811F69231300AA01A5 /* Emotion */,
+				D046967F1F6922FF00AA01A5 /* CJTitleButton.swift */,
 				D01E101A1F3C09D100411CF6 /* CJCommon.swift */,
 				D00549A01F3AF9610098D926 /* CJNetWorkTools.swift */,
-				D062D1131F317F9B00FB2AF0 /* CJTitleButton.swift */,
 				D017CA6D1F2F05FC0037071E /* category */,
 			);
 			name = Tools;
@@ -173,6 +204,7 @@
 				D017CA6A1F2EE7200037071E /* UIButton-Extension.swift */,
 				D017CA6E1F2F06F30037071E /* UIBarButtonItem-Extension.swift */,
 				D0BCB4A81F46D18000BC6FBA /* NSDate-Extension.swift */,
+				D0109A681F6A6B6300CD5BAE /* UITextView-Extension.swift */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -212,6 +244,7 @@
 		D03738591F28916800056CF6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D0435E4B1F66871F0098F182 /* Compose */,
 				D037385A1F28916800056CF6 /* Discover */,
 				D037385B1F28916800056CF6 /* Home */,
 				D037385C1F28916800056CF6 /* Main */,
@@ -282,6 +315,40 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		D0435E4B1F66871F0098F182 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89FE51F67BDE0007AE6B6 /* picPicker */,
+				D0435E4C1F66873C0098F182 /* CJComposeVC.swift */,
+				D0435E4D1F66873C0098F182 /* CJComposeVC.xib */,
+				D0435E501F668AB60098F182 /* CJComposeTitleView.swift */,
+				D0435E521F668F860098F182 /* CJComposeTextView.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		D04696811F69231300AA01A5 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				D0109A6A1F6A76A300CD5BAE /* Emoticons.bundle */,
+				D04696821F69231300AA01A5 /* Model */,
+				D04696831F69237500AA01A5 /* CJEmotionVC.swift */,
+				D0109A611F6A32CB00CD5BAE /* CJEmotionCell.swift */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		D04696821F69231300AA01A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2093D1F6924CA00FCE77E /* CJEmotionModel.swift */,
+				D0C209411F6935DC00FCE77E /* CJEmotionManger.swift */,
+				D0C2093F1F692E7000FCE77E /* CJEmotionPackage.swift */,
+				D0109A641F6A6B2800CD5BAE /* CJEmotionAttachment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D0BCB4971F46994000BC6FBA /* UIPopover */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +368,16 @@
 				D0BCB4A61F46D01D00BC6FBA /* CJStatusViewModel.swift */,
 			);
 			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		D0D89FE51F67BDE0007AE6B6 /* picPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89FE61F67BDF9007AE6B6 /* CJPicPickerCollectionView.swift */,
+				D04696761F68DDA800AA01A5 /* CJPicPickerViewCell.swift */,
+				D04696771F68DDA800AA01A5 /* CJPicPickerViewCell.xib */,
+			);
+			path = picPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,10 +450,13 @@
 				D017CA651F2ED5840037071E /* NULL.storyboard in Resources */,
 				D0BCB49E1F46994000BC6FBA /* CJPopoverViewController.xib in Resources */,
 				D00549971F3AB5FA0098D926 /* CJOAuthVC.xib in Resources */,
+				D0435E4F1F66873C0098F182 /* CJComposeVC.xib in Resources */,
 				D0BDD14B1F39A07400F3A411 /* Main.storyboard in Resources */,
 				D017CA5E1F2ED1D00037071E /* CJHomeVC.storyboard in Resources */,
+				D0109A6B1F6A76A300CD5BAE /* Emoticons.bundle in Resources */,
 				D017CA671F2ED59D0037071E /* CJDiscoverVC.storyboard in Resources */,
 				D037384F1F288E9400056CF6 /* Assets.xcassets in Resources */,
+				D04696791F68DDA800AA01A5 /* CJPicPickerViewCell.xib in Resources */,
 				D037387D1F29D7C500056CF6 /* MainVCSettings.json in Resources */,
 				D005499B1F3ABC2B0098D926 /* CJWelcomeVC.xib in Resources */,
 				D017CA621F2ED4890037071E /* CJMessageVC.storyboard in Resources */,
@@ -440,23 +520,33 @@
 			files = (
 				D03738661F2891D700056CF6 /* CJMessageVC.swift in Sources */,
 				D0BCB49C1F46994000BC6FBA /* CJPopoverAnimation.swift in Sources */,
+				D04696781F68DDA800AA01A5 /* CJPicPickerViewCell.swift in Sources */,
+				D0109A651F6A6B2800CD5BAE /* CJEmotionAttachment.swift in Sources */,
+				D0C2093E1F6924CA00FCE77E /* CJEmotionModel.swift in Sources */,
+				D0D89FE71F67BDF9007AE6B6 /* CJPicPickerCollectionView.swift in Sources */,
+				D0435E531F668F860098F182 /* CJComposeTextView.swift in Sources */,
 				D03738621F2891BD00056CF6 /* CJHomeVC.swift in Sources */,
 				D0BCB4A71F46D01D00BC6FBA /* CJStatusViewModel.swift in Sources */,
+				D0435E4E1F66873C0098F182 /* CJComposeVC.swift in Sources */,
 				D0BCB49F1F46994000BC6FBA /* CJPresentationVC.swift in Sources */,
+				D0109A691F6A6B6300CD5BAE /* UITextView-Extension.swift in Sources */,
 				D0BCB49D1F46994000BC6FBA /* CJPopoverViewController.swift in Sources */,
 				D00549A11F3AF9610098D926 /* CJNetWorkTools.swift in Sources */,
 				D017CA6F1F2F06F30037071E /* UIBarButtonItem-Extension.swift in Sources */,
 				D037386A1F28939E00056CF6 /* CJMainVC.swift in Sources */,
+				D04696841F69237500AA01A5 /* CJEmotionVC.swift in Sources */,
 				D00549961F3AB5FA0098D926 /* CJOAuthVC.swift in Sources */,
 				D0BCB4A91F46D18000BC6FBA /* NSDate-Extension.swift in Sources */,
 				D03738601F2891A200056CF6 /* CJDiscoverVC.swift in Sources */,
 				D01E101B1F3C09D100411CF6 /* CJCommon.swift in Sources */,
 				D0BCB4A31F46BF2600BC6FBA /* CJStatusModel.swift in Sources */,
-				D062D1141F317F9B00FB2AF0 /* CJTitleButton.swift in Sources */,
 				D03738481F288E9400056CF6 /* AppDelegate.swift in Sources */,
 				D005499D1F3ABEA50098D926 /* CJUserAccount.swift in Sources */,
+				D04696801F6922FF00AA01A5 /* CJTitleButton.swift in Sources */,
 				D062D1111F31753400FB2AF0 /* CJVisitorView.swift in Sources */,
+				D0C209421F6935DC00FCE77E /* CJEmotionManger.swift in Sources */,
 				D03738681F2891E300056CF6 /* CJProfileVC.swift in Sources */,
+				D0109A621F6A32CB00CD5BAE /* CJEmotionCell.swift in Sources */,
 				D017CA811F2F38460037071E /* CJBaseVC.swift in Sources */,
 				D00EE1911F6248D200F3AEBC /* CJPicCollectionView.swift in Sources */,
 				D09F31131F4AB88A008B15C1 /* CJHomeViewCell.swift in Sources */,
@@ -464,6 +554,8 @@
 				D005499A1F3ABC2B0098D926 /* CJWelcomeVC.swift in Sources */,
 				D005499F1F3AF4250098D926 /* CJUserAccountViewModel.swift in Sources */,
 				D0BCB4A51F46CE6E00BC6FBA /* CJUserModel.swift in Sources */,
+				D0435E511F668AB60098F182 /* CJComposeTitleView.swift in Sources */,
+				D0C209401F692E7000FCE77E /* CJEmotionPackage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,8 +688,10 @@
 			baseConfigurationReference = 2EEE83F25CAA694C6EB0D367 /* Pods-CJWB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
 				INFOPLIST_FILE = CJWB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shz.www.SDDSD.CJWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -610,8 +704,10 @@
 			baseConfigurationReference = BF458472E307D99D0C8B0718 /* Pods-CJWB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
 				INFOPLIST_FILE = CJWB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shz.www.SDDSD.CJWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";

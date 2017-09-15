@@ -13,3 +13,8 @@ import Foundation
 let app_key = "1568399787"
 let app_secret = "a836e144a43c013ef1456ef121e01111"
 let redirect_uri = "http://"
+
+
+// MARK:- 选择照片的通知常量
+let PicPickerAddPhotoNote = "PicPickerAddPhotoNote"
+let PicPickerRemovePhotoNote = "PicPickerRemovePhotoNote"
